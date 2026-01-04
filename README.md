@@ -24,5 +24,5 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 
 🎥 Driving Demo
 ---
-### Change to left lane
+### 1) Change to left lane
 <img src="assets/Change_to_left_lane.gif" width="700">
