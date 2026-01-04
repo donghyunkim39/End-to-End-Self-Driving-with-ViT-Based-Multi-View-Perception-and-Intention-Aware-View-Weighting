@@ -3,7 +3,7 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 
 📌 Overview
 ---
-This repository accompanies the research titled :
+This research accompanies the research titled :
 
 "End-to-End Self-Driving with ViT-Based Multi-View Perception and Intention-Aware View Weighting" by Dong-Hyun Kim and Yong-Gu Lee
 
