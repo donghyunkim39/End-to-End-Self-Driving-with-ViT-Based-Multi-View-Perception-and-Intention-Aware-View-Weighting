@@ -1,6 +1,9 @@
 # End-to-End-Self-Driving-with-ViT-Based-Multi-View-Perception-and-Intention-Aware-View-Weighting
 A multi-view image–based lateral control system for autonomous vehicles using conditional imitation learning with left, front, and right camera inputs.
 
+---
+
+
 📌 Overview
 ---
 This research accompanies the research titled :
@@ -14,3 +17,5 @@ This repository provides a dataset collected in the CARLA simulator (v0.9.15) fo
 🚘 Research Objective
 ---
 This work proposes an end-to-end autonomous driving model that dynamically adjusts attention across left, front, and right views based on the human driver’s driving intention, and further refines view importance according to road complexity even under the same intention.
+
+---
