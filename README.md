@@ -71,7 +71,12 @@ Sensor Setup
 ---
 
 
-🗺️ Inference Map (Top View)
+🗺️ Driving Maps (Top View)
 ---
+#### ▶Data Collection Map
+<img src="assets/Data_Collection_Map.png" width="700">
+*Driving paths in CARLA Town05.*
+
+#### ▶Inference Maps
 <img src="assets/Inference_Environment.png" width="700">
 *Left: Driving paths (Path 1–3) in CARLA Town01. Right: Driving paths (Path 1–3) in CARLA Town02.*
