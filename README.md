@@ -50,9 +50,19 @@ Sensor Setup
 ### 📍 Sensor Setup
 <img src="assets/Sensor_Setup.png" width="350">
 
+
 ### 📍 Real-Time Inference Platform
 | Component | Specification |
 |----------|---------------|
 | CPU | Intel(R) Core(TM) i7-14700KF (3.40 GHz) |
 | RAM | 32 GB |
 | GPU | NVIDIA GeForce RTX 4060 (8 GB) |
+
+
+### 📍 Model Architecture
+
+#### Full Model
+<img src="assets/Model_Architecture.png" width="700">
+
+#### ViewWeightGater
+<img src="assets/ViewWeightGater_Architecture.png" width="700">
