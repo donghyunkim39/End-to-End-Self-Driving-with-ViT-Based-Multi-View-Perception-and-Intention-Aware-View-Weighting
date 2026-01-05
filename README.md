@@ -35,3 +35,6 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 
 ### 4) Ture right
 <img src="assets/Ture_right.gif" width="700">
+
+### 5) Go straight
+<img src="assets/Go_straight.gif" width="700">
