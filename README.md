@@ -103,6 +103,7 @@ Sensor Setup
 | Town02 | Path1 | 311.1 | 8.1 | 319.2 | 97.5 | 9 | 1.4 | 760.2 | Overridden (L/R) |
 | Town02 | Path2 | 364.0 | 7.6 | 371.6 | 98.0 | 19 | 1.6 | 890.1 | Overridden (L/R) |
 | Town02 | Path3 | 270.8 | 10.9 | 281.7 | 96.1 | 17 | 2.4 | 666.0 | Overridden (L/R) |
+**Intervention Criteria:** center-lane crossing, HLC violation, collision with road structures, curb mounting, prolonged lane invasion (>3 s), and traffic rule violations.
 
 ### ▶Intervention Intervals and Driving Stability Metrics of the Proposed Model
 
