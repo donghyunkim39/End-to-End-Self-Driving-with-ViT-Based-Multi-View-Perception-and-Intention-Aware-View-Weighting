@@ -29,3 +29,9 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 
 ### 2) Lane change to the right
 <img src="assets/Lane_change_to_the_right.gif" width="700">
+
+### 3) Ture left
+<img src="assets/Ture_left.gif" width="700">
+
+### 4) Ture right
+<img src="assets/Ture_right.gif" width="700">
