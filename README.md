@@ -74,12 +74,11 @@ Sensor Setup
 🗺️ Driving Maps (Top View)
 ---
 #### ▶Data Collection Map
-<img src="assets/Data_Collection_Map.png" width="700">
+<img src="assets/Data_Collection_Map.png" width="350">
 *Driving paths in CARLA Town05.*
-| Component | Specification |
-|----------|---------------|
-| Simulator | CARLA |
-| Version | v0.9.15 |
+
+| CARLA Version | v0.9.15 |
+|--------------|---------|
 
 
 #### ▶Inference Maps
