@@ -66,3 +66,12 @@ Sensor Setup
 
 #### ▶ViewWeightGater
 <img src="assets/ViewWeightGater_Architecture.png" width="700">
+
+
+---
+
+
+🗺️ Inference Map (Top View)
+---
+<img src="assets/Inference_Environment.png" width="700">
+*Left: Driving paths (Path 1–3) in CARLA Town01. Right: Driving paths (Path 1–3) in CARLA Town02.*
