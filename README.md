@@ -117,7 +117,7 @@ Sensor Setup
 | Town02 | Path2 | 88.7 | 216.7 | 14.6 | 0.32 | As provided |
 | Town02 | Path3 | 77.5 | 189.2 | 19.4 | 0.25 | As provided |
 | Town02 | Path1 | 165.6 | 394.5 | 11.8 | 0.16 | Overridden (L/R) |
-| Town02 | Path2 | 88.75 | 217.6 | 21.3 | 0.08 | Overridden (L/R) |
+| Town02 | Path2 | 88.8 | 217.6 | 21.3 | 0.08 | Overridden (L/R) |
 | Town02 | Path3 | 58.5 | 142.7 | 25.5 | 0.14 | Overridden (L/R) |
 
 **HLC Policy:** *As provided* uses manually assigned HLCs based on road structure, while *Overridden (Left/Right)* replaces *Go Straight* with left/right commands for sharp curves in the Town02 inference map (Sharp Curve 1–4).
