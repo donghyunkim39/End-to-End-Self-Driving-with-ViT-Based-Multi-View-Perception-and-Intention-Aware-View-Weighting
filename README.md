@@ -61,8 +61,8 @@ Sensor Setup
 
 ### 📍 Model Architecture
 
-#### Full Model
-<img src="assets/Model_Architecture.png" width="700">
+#### ▶Full Model
+<img src="assets/Model_Architectur.png" width="700">
 
-#### ViewWeightGater
+#### ▶ViewWeightGater
 <img src="assets/ViewWeightGater_Architecture.png" width="700">
