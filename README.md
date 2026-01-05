@@ -75,6 +75,7 @@ Sensor Setup
 ---
 #### ▶Data Collection Map (CARLA Town05)
 <img src="assets/Data_Collection_Map.png" width="350">
+
 | CARLA Version | v0.9.15 |
 |--------------|---------|
 
