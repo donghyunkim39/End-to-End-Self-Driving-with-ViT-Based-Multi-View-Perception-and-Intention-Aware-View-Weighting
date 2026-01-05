@@ -90,9 +90,9 @@ Sensor Setup
 
 ## 📊 Experimental Results
 
-### 📊 Quantitative Results in CARLA Towns
+### ▶Performance Metrics of the Proposed Model
 
-| Town | Path | Autonomous Driving Time (s) | Intervention Time (s) | Total Driving Time (s) | Autonomy (%) | # of HLC | # of Interventions | Driving Distance (m) | HLC Policy |
+| Town | Path | Autonomous Driving Time (s) | Intervention Time (s) | Total Driving Time (s) | Autonomy (%) | Number of HLC | Number of Interventions | Driving Distance (m) | HLC Policy |
 |------|------|-----------------------------|------------------------|------------------------|--------------|----------|--------------------|----------------------|------------|
 | Town01 | Path1 | 459.6 | 3.6 | 463.2 | 99.2 | 13 | 1.2 | 1107.7 | As provided |
 | Town01 | Path2 | 550.3 | 8.5 | 558.8 | 98.5 | 19 | 3.4 | 1334.1 | As provided |
@@ -104,3 +104,16 @@ Sensor Setup
 | Town02 | Path2 | 364.0 | 7.6 | 371.6 | 98.0 | 19 | 1.6 | 890.1 | Overridden (L/R) |
 | Town02 | Path3 | 270.8 | 10.9 | 281.7 | 96.1 | 17 | 2.4 | 666.0 | Overridden (L/R) |
 
+### ▶Intervention Intervals and Driving Stability Metrics of the Proposed Model
+
+| Town | Path | Mean Time Between Intervention (s) | Mean Distance Between Intervention (m) | Commands per Distance (commands/km) | Interventions per Command | HLC Policy |
+|------|------|------------------------------------|----------------------------------------|-------------------------------------|---------------------------|------------|
+| Town01 | Path1 | 211.9 | 503.7 | 11.7 | 0.09 | As provided |
+| Town01 | Path2 | 181.2 | 436.4 | 14.2 | 0.18 | As provided |
+| Town01 | Path3 | 90.8 | 217.2 | 16.7 | 0.06 | As provided |
+| Town02 | Path1 | 78.2 | 189.8 | 13.2 | 4.00 | As provided |
+| Town02 | Path2 | 88.7 | 216.7 | 14.6 | 0.32 | As provided |
+| Town02 | Path3 | 77.5 | 189.2 | 19.4 | 0.25 | As provided |
+| Town02 | Path1 | 165.6 | 394.5 | 11.8 | 0.16 | Overridden (L/R) |
+| Town02 | Path2 | 88.75 | 217.6 | 21.3 | 0.08 | Overridden (L/R) |
+| Town02 | Path3 | 58.5 | 142.7 | 25.5 | 0.14 | Overridden (L/R) |
