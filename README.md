@@ -92,7 +92,7 @@ Sensor Setup
 
 ### ▶Performance Metrics of the Proposed Model
 
-| Town | Path | Autonomous Driving Time (s) | Intervention Time (s) | Total Driving Time (s) | Autonomy (%) | Number of HLC | Number of Interventions | Driving Distance (m) | HLC Policy |
+| Town | Path | Autonomous Driving Time [s] | Intervention Time [s] | Total Driving Time [s] | Autonomy [%] | Number of HLC | Number of Interventions | Driving Distance [m] | HLC Policy |
 |------|------|-----------------------------|------------------------|------------------------|--------------|----------|--------------------|----------------------|------------|
 | Town01 | Path1 | 459.6 | 3.6 | 463.2 | 99.2 | 13 | 1.2 | 1107.7 | As provided |
 | Town01 | Path2 | 550.3 | 8.5 | 558.8 | 98.5 | 19 | 3.4 | 1334.1 | As provided |
@@ -108,7 +108,7 @@ Sensor Setup
 
 ### ▶Intervention Intervals and Driving Stability Metrics of the Proposed Model
 
-| Town | Path | Mean Time Between Intervention (s) | Mean Distance Between Intervention (m) | Commands per Distance (commands/km) | Interventions per Command | HLC Policy |
+| Town | Path | Mean Time Between Intervention [s] | Mean Distance Between Intervention [m] | Commands per Distance [commands/km] | Interventions per Command | HLC Policy |
 |------|------|------------------------------------|----------------------------------------|-------------------------------------|---------------------------|------------|
 | Town01 | Path1 | 211.9 | 503.7 | 11.7 | 0.09 | As provided |
 | Town01 | Path2 | 181.2 | 436.4 | 14.2 | 0.18 | As provided |
@@ -119,3 +119,6 @@ Sensor Setup
 | Town02 | Path1 | 165.6 | 394.5 | 11.8 | 0.16 | Overridden (L/R) |
 | Town02 | Path2 | 88.75 | 217.6 | 21.3 | 0.08 | Overridden (L/R) |
 | Town02 | Path3 | 58.5 | 142.7 | 25.5 | 0.14 | Overridden (L/R) |
+
+**HLC Policy:** *As provided* uses the original HLCs from CARLA, while *Overridden (Left/Right)* manually redefines HLCs for sharp curves as left/right turns to resolve mismatches with the training distribution.
+
