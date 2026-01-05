@@ -83,3 +83,24 @@ Sensor Setup
 #### ▶Inference Maps (CARLA Town01, 02)
 <img src="assets/Inference_Environment.png" width="700">
 *Left: Driving paths (Path 1–3) in CARLA Town01. Right: Driving paths (Path 1–3) in CARLA Town02.*
+
+
+---
+
+
+## 📊 Experimental Results
+
+### 📊 Quantitative Results in CARLA Towns
+
+| Town | Path | Autonomous Driving Time (s) | Intervention Time (s) | Total Driving Time (s) | Autonomy (%) | # of HLC | # of Interventions | Driving Distance (m) | HLC Policy |
+|------|------|-----------------------------|------------------------|------------------------|--------------|----------|--------------------|----------------------|------------|
+| Town01 | Path1 | 459.6 | 3.6 | 463.2 | 99.2 | 13 | 1.2 | 1107.7 | As provided |
+| Town01 | Path2 | 550.3 | 8.5 | 558.8 | 98.5 | 19 | 3.4 | 1334.1 | As provided |
+| Town01 | Path3 | 523.0 | 3.3 | 526.3 | 99.4 | 21 | 1.2 | 1259.6 | As provided |
+| Town02 | Path1 | 294.6 | 25.5 | 320.1 | 92.0 | 1 | 4.0 | 759.8 | As provided |
+| Town02 | Path2 | 352.5 | 21.6 | 374.1 | 94.2 | 13 | 4.2 | 892.3 | As provided |
+| Town02 | Path3 | 262.7 | 20.0 | 282.7 | 92.9 | 13 | 3.2 | 669.0 | As provided |
+| Town02 | Path1 | 311.1 | 8.1 | 319.2 | 97.5 | 9 | 1.4 | 760.2 | Overridden (L/R) |
+| Town02 | Path2 | 364.0 | 7.6 | 371.6 | 98.0 | 19 | 1.6 | 890.1 | Overridden (L/R) |
+| Town02 | Path3 | 270.8 | 10.9 | 281.7 | 96.1 | 17 | 2.4 | 666.0 | Overridden (L/R) |
+
