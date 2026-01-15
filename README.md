@@ -89,6 +89,7 @@ Sensor Setup
 
 
 ## 📊 Experimental Results
+---
 
 ### ▶Performance Metrics of the Proposed Model
 
@@ -121,4 +122,14 @@ Sensor Setup
 | Town02 | Path3 | 58.5 | 142.7 | 25.5 | 0.14 | Overridden (L/R) |
 
 **HLC Policy:** *As provided* uses manually assigned HLCs based on road structure, while *Overridden (Left/Right)* replaces *Go Straight* with left/right commands for sharp curves in the Town02 inference map (Sharp Curve 1–4).
+
+
+---
+
+
+## 🙌 Acknowledgements
+---
+I would like to express my sincere gratitude to the members of our research lab for their valuable support and constructive discussions throughout the course of this research. In addition, I am deeply grateful to Professor Yong-Gu Lee, whose continuous feedback, insightful guidance, and encouragement were instrumental in improving the quality of this work. I also extend my appreciation to my family and friends for their unwavering support and encouragement, which sustained me during the preparation of this manuscript.
+This article is a revised and expanded version of the author's Master's thesis submitted to the Gwangju Institute of Science and Technology (GIST) in 2026.
+
 
