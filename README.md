@@ -146,6 +146,23 @@ This work was supported by the Institute of Information & communications Technol
 **Note:** The training dataset provided in this repository was entirely collected in the CARLA Town05 environment using CARLA’s built-in AutoPilot functionality.
 
 
+### ▶ Dataset Structure
+
+```bash
+Train_data.tar (or .zip)
+├── raw/
+│   ├── left/        (26,050 RGB images)
+│   ├── center/      (26,050 RGB images)
+│   ├── right/       (26,050 RGB images)
+│   └── control_log.csv
+│
+└── npy/
+    ├── left/        (26,050 .npy files: Road / Lane / Background)
+    ├── center/      (26,050 .npy files: Road / Lane / Background)
+    ├── right/       (26,050 .npy files: Road / Lane / Background)
+    └── control_log.csv
+
+
 
 ### ▶ Extract files (Ubuntu)
 
