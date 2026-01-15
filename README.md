@@ -186,5 +186,5 @@ Paper:
 ---
 
 ## 📬 Contact
-**Dong-Hyun Kim | krym0309@gm.gist.ac.kr**
+**Dong-Hyun Kim | krym0309@gm.gist.ac.kr or krym0309@naver.com**
 
