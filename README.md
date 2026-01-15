@@ -137,8 +137,9 @@ This work was supported by the Institute of Information & communications Technol
 
 ## 📂 Train Data
 
-| Item | Format | Link |
-|------|--------|------|
-|Dataset|.zip|      |
-|Dataset|.tar|      |
+| Item        | Format        | Link |
+|-------------|---------------|------|
+| Dataset     | `.tar`        |      |
+| Model Weights | `.zip`      |      |
+
 
