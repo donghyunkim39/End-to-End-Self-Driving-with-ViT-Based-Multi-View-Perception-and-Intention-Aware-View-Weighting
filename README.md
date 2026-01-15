@@ -178,4 +178,13 @@ Samples sharing the same `seq_idx` correspond to **five consecutive frames colle
 
 
 
+---
+
+## 📄 Paper
+Paper:
+
+---
+
+## 📬 Contact
+**Dong-Hyun Kim | krym0309@gm.gist.ac.kr**
 
