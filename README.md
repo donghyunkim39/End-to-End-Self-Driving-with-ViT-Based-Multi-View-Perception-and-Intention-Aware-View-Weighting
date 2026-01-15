@@ -94,7 +94,8 @@ Sensor Setup
 
 #### ▶ Inference Maps (CARLA Town01, 02)
 <img src="assets/Inference_Environment.png" width="700">
-*Left: Driving paths (Path 1–3) in CARLA Town01. Right: Driving paths (Path 1–3) in CARLA Town02.*
+
+**Left:** Driving paths (Path 1–3) in CARLA Town01. **Right:** Driving paths (Path 1–3) in CARLA Town02.
 
 
 ---
