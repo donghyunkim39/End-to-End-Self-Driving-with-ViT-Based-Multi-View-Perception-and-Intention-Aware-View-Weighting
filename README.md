@@ -146,6 +146,17 @@ This work was supported by the Institute of Information & communications Technol
 **Note:** The training dataset provided in this repository was entirely collected in the CARLA Town05 environment using CARLA’s built-in AutoPilot functionality.
 
 
+### ▶ Extract files (Ubuntu)
+
+```bash
+# tar archives (dataset only)
+tar -xvf Train_data.tar -C /desired/path
+
+# zip archives (dataset only)
+unzip Train_data.zip -d /desired/path
+```
+
+
 ### ▶ Dataset Structure
 
 ```bash
@@ -162,15 +173,9 @@ Train_data.tar (or .zip)
     ├── right/       (26,050 .npy files: Road / Lane / Background)
     └── control_log.csv
 ```
+The `control_log.csv` file contains the following fields: `HLC`, `Velocity`, `Steer`, `Throttle`, `Brake`, and `seq_idx`.
+Samples sharing the same `seq_idx` correspond to **five consecutive frames collected during a continuous driving segment**, indicating temporally contiguous data rather than isolated observations.
 
 
-### ▶ Extract files (Ubuntu)
-
-```bash
-# tar archives (dataset only)
-tar -xvf Train_data.tar -C /desired/path
-
-# zip archives (dataset only)
-unzip Train_data.zip -d /desired/path
 
 
