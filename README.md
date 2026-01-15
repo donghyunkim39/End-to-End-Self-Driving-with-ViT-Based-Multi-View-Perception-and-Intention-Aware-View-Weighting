@@ -127,9 +127,8 @@ Sensor Setup
 ---
 
 
-## 🙌 Acknowledgements
+## 💰 Funding
 
-I would like to express my sincere gratitude to the members of our research lab for their valuable support and constructive discussions throughout the course of this research. In addition, I am deeply grateful to Professor Yong-Gu Lee, whose continuous feedback, insightful guidance, and encouragement were instrumental in improving the quality of this work. I also extend my appreciation to my family and friends for their unwavering support and encouragement, which sustained me during the preparation of this manuscript.
-This article is a revised and expanded version of the author's Master's thesis submitted to the Gwangju Institute of Science and Technology (GIST) in 2026.
+This work was supported by the Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No. 2019-0-01842, Artificial Intelligence Graduate School Program (GIST)), Korea Institute for Advancement of Technology (KIAT) grant funded by the Korea Government (MOTIE) \[P0020535, The Competency Development Program for Industry Specialist\] and GIST Research Project grant funded by the GIST in 2025, and The Regional Innovation System & Education (RISE) program through the Gwangju RISE Center, funded by the Ministry of Education (MOE) and the Gwangju Metropolitan City, Republic of Korea. (2025-RISE-05-001).
 
 
