@@ -140,6 +140,6 @@ This work was supported by the Institute of Information & communications Technol
 | Item        | Format        | Link |
 |-------------|---------------|------|
 | Dataset     | `.tar`        |      |
-| Model Weights | `.zip`      |      |
+| Dataset     | `.zip`        |      |
 
 
