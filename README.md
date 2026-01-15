@@ -79,6 +79,18 @@ Sensor Setup
 | CARLA Version | v0.9.15 |
 |--------------|---------|
 
+##### Number of Data Sequences
+
+| High-Level Command        | Number of Data Sequences | Proportion of Data Sequences |
+|---------------------------|--------------------------|------------------------------|
+| Turn Left                 | 3,040                    | 20.4%                        |
+| Turn Right                | 3,953                    | 26.6%                        |
+| Change to Left Lane       | 806                      | 5.4%                         |
+| Change to Right Lane      | 1,219                    | 8.2%                         |
+| Go Straight               | 5,855                    | 39.4%                        |
+| **Total**                 | **14,873**               | **100%**                     |
+
+**Note:** Each data sequence consists of **five temporally consecutive frames** captured during a **single continuous driving episode**, ensuring temporal continuity within each sequence.
 
 #### ▶ Inference Maps (CARLA Town01, 02)
 <img src="assets/Inference_Environment.png" width="700">
