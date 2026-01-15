@@ -203,7 +203,7 @@ Paper:
 
 M.S. Student, Department of Mechanical and Robotics Engineering
 
-Gwangju Institute of Science and Technology (GIST)
+Gwangju Institute of Science and Technology (GIST), Republic of Korea
 
 krym0309@gm.gist.ac.kr or krym0309@naver.com
 
