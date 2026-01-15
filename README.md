@@ -144,4 +144,13 @@ This work was supported by the Institute of Information & communications Technol
 
 **Note:** The training dataset provided in this repository was entirely collected in the CARLA Town05 environment using CARLA’s built-in AutoPilot functionality.
 
+## 📦 Extract files (Ubuntu)
+
+```bash
+# tar archives (dataset only)
+tar -xvf Train_data.tar -C /desired/path
+
+# zip archives (dataset only)
+unzip Train_data.zip -d /desired/path
+
 
