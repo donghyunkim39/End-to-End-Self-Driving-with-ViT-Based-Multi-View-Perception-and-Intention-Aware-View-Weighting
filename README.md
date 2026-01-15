@@ -132,3 +132,13 @@ Sensor Setup
 This work was supported by the Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No. 2019-0-01842, Artificial Intelligence Graduate School Program (GIST)), Korea Institute for Advancement of Technology (KIAT) grant funded by the Korea Government (MOTIE) \[P0020535, The Competency Development Program for Industry Specialist\] and GIST Research Project grant funded by the GIST in 2025, and The Regional Innovation System & Education (RISE) program through the Gwangju RISE Center, funded by the Ministry of Education (MOE) and the Gwangju Metropolitan City, Republic of Korea. (2025-RISE-05-001).
 
 
+---
+
+
+## 📂 Train Data
+
+| Item | Format | Link |
+|------|--------|------|
+|Dataset|.zip|      |
+|Dataset|.tar|      |
+
