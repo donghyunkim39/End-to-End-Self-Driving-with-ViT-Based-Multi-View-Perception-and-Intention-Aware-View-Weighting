@@ -139,7 +139,7 @@ This work was supported by the Institute of Information & communications Technol
 
 | Item        | Format        | Link |
 |-------------|---------------|------|
-| Dataset     | `.tar`        |      |
-| Dataset     | `.zip`        |      |
+| Dataset     | `.tar`        |[Download](https://drive.google.com/file/d/1xLyuhKd9q_cJK7o3R9xm2IkiuxvZGr6e/view?usp=sharing)|
+| Dataset     | `.zip`        |[Download](https://drive.google.com/file/d/15_IH4bndvWdm6GI6JY4SUrKMmx9bJk2q/view?usp=sharing)|
 
 
