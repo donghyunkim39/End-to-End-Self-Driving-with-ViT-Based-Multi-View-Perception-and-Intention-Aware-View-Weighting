@@ -142,4 +142,6 @@ This work was supported by the Institute of Information & communications Technol
 | Dataset     | `.tar`        | 155GB         |[Download](https://drive.google.com/file/d/1xLyuhKd9q_cJK7o3R9xm2IkiuxvZGr6e/view?usp=sharing)|
 | Dataset     | `.zip`        | 88.8GB        |[Download](https://drive.google.com/file/d/15_IH4bndvWdm6GI6JY4SUrKMmx9bJk2q/view?usp=sharing)|
 
+**Note:** The training dataset provided in this repository was entirely collected in the CARLA Town05 environment using CARLA’s built-in AutoPilot functionality.
+
 
