@@ -199,12 +199,9 @@ Paper:
 ---
 
 ## 📬 Contact
-**Dong-Hyun Kim**
-
-M.S. Student, Department of Mechanical and Robotics Engineering
-
-Gwangju Institute of Science and Technology (GIST), Republic of Korea
-
+**Dong-Hyun Kim**<br>
+M.S. Student, Department of Mechanical and Robotics Engineering<br>
+Gwangju Institute of Science and Technology (GIST), Republic of Korea<br>
 krym0309@gm.gist.ac.kr or krym0309@naver.com
 
 
