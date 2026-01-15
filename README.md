@@ -79,7 +79,7 @@ Sensor Setup
 | CARLA Version | v0.9.15 |
 |--------------|---------|
 
-##### Number of Data Sequences
+#### ▶ Number of Data Sequences
 
 | High-Level Command        | Number of Data Sequences | Proportion of Data Sequences |
 |---------------------------|--------------------------|------------------------------|
