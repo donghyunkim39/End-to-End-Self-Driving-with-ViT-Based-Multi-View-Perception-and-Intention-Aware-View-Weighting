@@ -161,8 +161,7 @@ Train_data.tar (or .zip)
     ├── center/      (26,050 .npy files: Road / Lane / Background)
     ├── right/       (26,050 .npy files: Road / Lane / Background)
     └── control_log.csv
-
-
+```
 
 
 ### ▶ Extract files (Ubuntu)
