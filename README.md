@@ -61,10 +61,10 @@ Sensor Setup
 
 ### 📍 Model Architecture
 
-#### ▶Full Model
+#### ▶ Full Model
 <img src="assets/Model_Architecture.png" width="700">
 
-#### ▶ViewWeightGater
+#### ▶ ViewWeightGater
 <img src="assets/ViewWeightGater_Architecture.png" width="700">
 
 
@@ -73,14 +73,14 @@ Sensor Setup
 
 🗺️ Driving Maps (Top View)
 ---
-#### ▶Data Collection Map (CARLA Town05)
+#### ▶ Data Collection Map (CARLA Town05)
 <img src="assets/Data_Collection_Map.png" width="350">
 
 | CARLA Version | v0.9.15 |
 |--------------|---------|
 
 
-#### ▶Inference Maps (CARLA Town01, 02)
+#### ▶ Inference Maps (CARLA Town01, 02)
 <img src="assets/Inference_Environment.png" width="700">
 *Left: Driving paths (Path 1–3) in CARLA Town01. Right: Driving paths (Path 1–3) in CARLA Town02.*
 
@@ -91,7 +91,7 @@ Sensor Setup
 ## 📊 Experimental Results
 
 
-### ▶Performance Metrics of the Proposed Model
+### ▶ Performance Metrics of the Proposed Model
 
 | Town | Path | Autonomous Driving Time [s] | Intervention Time [s] | Total Driving Time [s] | Autonomy [%] | Number of HLC | Number of Interventions | Driving Distance [m] | HLC Policy |
 |------|------|-----------------------------|------------------------|------------------------|--------------|----------|--------------------|----------------------|------------|
@@ -107,7 +107,7 @@ Sensor Setup
 
 **Intervention Criteria:** center-lane crossing, HLC violation, collision with road structures, curb mounting, prolonged lane invasion (>3 s), and traffic rule violations.
 
-### ▶Intervention Intervals and Driving Stability Metrics of the Proposed Model
+### ▶ Intervention Intervals and Driving Stability Metrics of the Proposed Model
 
 | Town | Path | Mean Time Between Intervention [s] | Mean Distance Between Intervention [m] | Commands per Distance [commands/km] | Interventions per Command | HLC Policy |
 |------|------|------------------------------------|----------------------------------------|-------------------------------------|---------------------------|------------|
@@ -137,6 +137,7 @@ This work was supported by the Institute of Information & communications Technol
 
 ## 📂 Train Data
 
+### ▶ Download
 | Item        | Format        | Capacity| Link |
 |-------------|---------------|---------------|------|
 | Dataset     | `.tar`        | 155GB         |[Download](https://drive.google.com/file/d/1xLyuhKd9q_cJK7o3R9xm2IkiuxvZGr6e/view?usp=sharing)|
@@ -144,7 +145,9 @@ This work was supported by the Institute of Information & communications Technol
 
 **Note:** The training dataset provided in this repository was entirely collected in the CARLA Town05 environment using CARLA’s built-in AutoPilot functionality.
 
-## 📦 Extract files (Ubuntu)
+
+
+### ▶ Extract files (Ubuntu)
 
 ```bash
 # tar archives (dataset only)
