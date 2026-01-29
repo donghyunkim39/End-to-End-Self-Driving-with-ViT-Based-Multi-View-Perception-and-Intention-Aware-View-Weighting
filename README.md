@@ -110,12 +110,12 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 |------|------|-----------------------------|------------------------|------------------------|--------------|----------|--------------------|----------------------|------------|
 | Town01 | Path1 | 459.6 | 3.6 | 463.2 | 99.2 | 13 | 1.2 | 1107.7 | As provided |
 | Town01 | Path2 | 550.3 | 8.5 | 558.8 | 98.5 | 19 | 3.4 | 1334.1 | As provided |
-| Town01 | Path3 | 523.0 | 3.3 | 526.3 | 99.4 | 21 | 1.2 | 1259.6 | As provided |
+| Town01 | Path3 | 523.0 | 3.3 | 526.3 | **99.4** | 21 | 1.2 | 1259.6 | As provided |
 | Town02 | Path1 | 294.6 | 25.5 | 320.1 | 92.0 | 1 | 4.0 | 759.8 | As provided |
-| Town02 | Path2 | 352.5 | 21.6 | 374.1 | 94.2 | 13 | 4.2 | 892.3 | As provided |
+| Town02 | Path2 | 352.5 | 21.6 | 374.1 | **94.2** | 13 | 4.2 | 892.3 | As provided |
 | Town02 | Path3 | 262.7 | 20.0 | 282.7 | 92.9 | 13 | 3.2 | 669.0 | As provided |
 | Town02 | Path1 | 311.1 | 8.1 | 319.2 | 97.5 | 9 | 1.4 | 760.2 | Overridden (L/R) |
-| Town02 | Path2 | 364.0 | 7.6 | 371.6 | 98.0 | 19 | 1.6 | 890.1 | Overridden (L/R) |
+| Town02 | Path2 | 364.0 | 7.6 | 371.6 | **98.0** | 19 | 1.6 | 890.1 | Overridden (L/R) |
 | Town02 | Path3 | 270.8 | 10.9 | 281.7 | 96.1 | 17 | 2.4 | 666.0 | Overridden (L/R) |
 
 **Intervention Criteria:** center-lane crossing, HLC violation, collision with road structures, curb mounting, prolonged lane invasion (>3 s), and traffic rule violations.
@@ -126,12 +126,12 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 |------|------|------------------------------------|----------------------------------------|-------------------------------------|---------------------------|------------|
 | Town01 | Path1 | 211.9 | 503.7 | 11.7 | 0.09 | As provided |
 | Town01 | Path2 | 181.2 | 436.4 | 14.2 | 0.18 | As provided |
-| Town01 | Path3 | 90.8 | 217.2 | 16.7 | 0.06 | As provided |
+| Town01 | Path3 | 90.8 | 217.2 | 16.7 | **0.06** | As provided |
 | Town02 | Path1 | 78.2 | 189.8 | 13.2 | 4.00 | As provided |
 | Town02 | Path2 | 88.7 | 216.7 | 14.6 | 0.32 | As provided |
-| Town02 | Path3 | 77.5 | 189.2 | 19.4 | 0.25 | As provided |
+| Town02 | Path3 | 77.5 | 189.2 | 19.4 | **0.25** | As provided |
 | Town02 | Path1 | 165.6 | 394.5 | 11.8 | 0.16 | Overridden (L/R) |
-| Town02 | Path2 | 88.8 | 217.6 | 21.3 | 0.08 | Overridden (L/R) |
+| Town02 | Path2 | 88.8 | 217.6 | 21.3 | **0.08** | Overridden (L/R) |
 | Town02 | Path3 | 58.5 | 142.7 | 25.5 | 0.14 | Overridden (L/R) |
 
 **HLC Policy:** *As provided* uses manually assigned HLCs based on road structure, while *Overridden (Left/Right)* replaces *Go Straight* with left/right commands for sharp curves in the Town02 inference map (Sharp Curve 1–4).
