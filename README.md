@@ -75,7 +75,7 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 🗺️ Driving Maps (Top View)
 ---
 #### ▶ Data Collection Map (CARLA Town05)
-<img src="assets/Data_collection_map.png" width="350">
+<img src="assets/Data_collection_map.png" width="700">
 
 | CARLA Version | v0.9.15 |
 |--------------|---------|
