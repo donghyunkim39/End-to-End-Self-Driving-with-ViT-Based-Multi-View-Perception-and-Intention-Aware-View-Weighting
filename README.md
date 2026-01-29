@@ -168,7 +168,7 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 | 24 | 61         | 49        |
 | 25 | 21         | 12        |
 
-* Each start–goal pair was evaluated twice in CARLA Town02 (50 episodes in total), and the success rate was used as the primary evaluation metric.*
+Each start–goal pair was evaluated twice in CARLA Town02 (50 episodes in total), and the success rate was used as the primary evaluation metric.*
 
 | Task  | CIL | CILR | CILRS | **ViewSelective-CIL (Ours)** |
 |-------|-----|------|-------|-----------------------------|
