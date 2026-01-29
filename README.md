@@ -6,7 +6,7 @@ A multi-view image–based lateral control system for autonomous vehicles using 
 
 📌 Overview
 ---
-<img src="assets/Graphical_Abstract.png" width="700">
+<img src="assets/Graphical_Abstract.png" width="1000">
 
 This research accompanies the research titled :
 
