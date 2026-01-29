@@ -138,6 +138,38 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 
 ### ▶ Comparison with Prior CIL-Based Methods (External Dataset Evaluation)
 
+#### 🗺️ Start–Goal Pairs in CARLA Town02
+
+| ID | Start Node | Goal Node |
+|----|------------|-----------|
+| 1  | 19         | 66        |
+| 2  | 79         | 14        |
+| 3  | 19         | 57        |
+| 4  | 39         | 53        |
+| 5  | 60         | 26        |
+| 6  | 53         | 76        |
+| 7  | 42         | 13        |
+| 8  | 31         | 71        |
+| 9  | 59         | 35        |
+| 10 | 47         | 16        |
+| 11 | 10         | 61        |
+| 12 | 66         | 3         |
+| 13 | 20         | 79        |
+| 14 | 14         | 56        |
+| 15 | 26         | 69        |
+| 16 | 79         | 19        |
+| 17 | 2          | 29        |
+| 18 | 16         | 14        |
+| 19 | 5          | 57        |
+| 20 | 77         | 68        |
+| 21 | 70         | 73        |
+| 22 | 46         | 67        |
+| 23 | 34         | 77        |
+| 24 | 61         | 49        |
+| 25 | 21         | 12        |
+
+* Each start–goal pair was evaluated twice in CARLA Town02 (50 episodes in total), and the success rate was used as the primary evaluation metric.*
+
 | Task  | CIL | CILR | CILRS | **ViewSelective-CIL (Ours)** |
 |-------|-----|------|-------|-----------------------------|
 | Empty | 24  | 66   | 90    | **96**                      |
