@@ -104,7 +104,7 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 ## 📊 Experimental Results
 
 
-### ▶ Performance Metrics of the Proposed Model
+### ▶ Performance Metrics of the Proposed Model (Internal Dataset Evaluation)
 
 | Town | Path | Autonomous Driving Time [s] | Intervention Time [s] | Total Driving Time [s] | Autonomy [%] | Number of HLC | Number of Interventions | Driving Distance [m] | HLC Policy |
 |------|------|-----------------------------|------------------------|------------------------|--------------|----------|--------------------|----------------------|------------|
@@ -120,7 +120,7 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 
 **Intervention Criteria:** center-lane crossing, HLC violation, collision with road structures, curb mounting, prolonged lane invasion (>3 s), and traffic rule violations.
 
-### ▶ Intervention Intervals and Driving Stability Metrics of the Proposed Model
+### ▶ Intervention Intervals and Driving Stability Metrics of the Proposed Model (Internal Dataset Evaluation)
 
 | Town | Path | Mean Time Between Intervention [s] | Mean Distance Between Intervention [m] | Commands per Distance [commands/km] | Interventions per Command | HLC Policy |
 |------|------|------------------------------------|----------------------------------------|-------------------------------------|---------------------------|------------|
@@ -135,6 +135,14 @@ This work proposes an end-to-end autonomous driving model that dynamically adjus
 | Town02 | Path3 | 58.5 | 142.7 | 25.5 | 0.14 | Overridden (L/R) |
 
 **HLC Policy:** *As provided* uses manually assigned HLCs based on road structure, while *Overridden (Left/Right)* replaces *Go Straight* with left/right commands for sharp curves in the Town02 inference map (Sharp Curve 1–4).
+
+### ▶ Comparison with Prior CIL-Based Methods (External Dataset Evaluation)
+
+| Task  | CIL | CILR | CILRS | **ViewSelective-CIL (Ours)** |
+|-------|-----|------|-------|-----------------------------|
+| Empty | 24  | 66   | 90    | **96**                      |
+
+*Baseline results (CIL, CILR, CILRS) are reported from Codevilla et al. (2018, 2019) under the same NoCrash (New Town & Weather) evaluation protocol.*
 
 
 ---
